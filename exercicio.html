@@ -1,26 +1,26 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exercicio html</title>
+    <title>Document</title>
 </head>
 <body>
     <h1>FORMULÁRIO DE CADASTRO</h1>
-    <label>Nome</label>
-        <input type="text" name="nome" ><br>
+    <form>
+        <label for="nome">nome</label>
+        <input id="nome" type="text" name="nome" />
 
         <br />
-        <label>Seu e-mail</label>
-        <input type="e-mail" name="email" ><br>
+        <label for="email">Seu e-mail</label>
+        <input id="email" type="email" />
 
         <br/>       
-        <label>senha</label>
-        <input type="password" name="senha"><br>
+        <label for="senha">senha</label>
+        <input id="senha" type="password" name="senha"><br>
         <br />
-            <input type="submit" name="cadastrar" value="cadastrar"> 
-    <form>
+        <button type="submit">enviar</button>
+    </form>
+    
 </body>
 </html>
