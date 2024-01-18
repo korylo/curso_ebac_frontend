@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"type="text/css"href="main.css"
+  media="screen"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+
+  </script>
+<title>Criar Formulario</title>
+</head>
+<body>
+  <section>
+    <form action="#"method="post">
+    <h1>Formulario</h1>
+    <fildeset>
+      <div class="container">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"/>
+      </div>
+
+        <div class="container">
+          <label for="sobrenome">Sobrenome:</label>
+          <input type="text" id="sobrenome" name="sobrenome"/>
+        </div>
+    </fildeset>
+
+    <fieldset>
+      <div class="container">
+        <label for="numero-e-mail">Endereço de e-Mail:</label>
+        <input type="text" id="numero-e-mail" name="e-mail"/>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="container">
+        <label for="numero-telefone">Numero-Tefelone:</label>
+        <input type="tel" id="telefone">
+      </div>
+      
+    </fieldset>
+
+    <fieldset>
+      <div class="container">
+        <label for="numero-cpf">Numero-CPF:</label>
+        <input type="cpf" id="cpf">
+      </div>
+
+    </fieldset>
+
+    <fieldset>
+      <div class="container">
+        <label for="numero-cep">Numero-CEP:</label>
+        <input type="cep" id="cep">
+      </div>
+    </fieldset>
+
+    <fieldset> 
+      <div class="container">
+        <label for="endereço">Endereço:</label>
+        <input type="text" id="endereço">
+      </div>
+    </fieldset>
+
+        <fieldset>
+          <div id="check">
+            <input type="checkbox"required name="acept">
+            <label> Aceitar os termos de uso</label>
+            </div>
+            <button> Criar conta</button>
+            
+          </fieldset>
+          
+        <a heref="#">ler termos</a>
+      </form>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+          <script src="./js/jquery.mask.min.js"></script>
+          <script>
+
+          $('#cpf').mask('000.000.000-00',)
+          $('#cep').mask('00000-000')
+          $('#telefone').mask('(00) 00000-00000',)
+
+          </script>
+           
+
+      
+      
+</body>
+</html>
